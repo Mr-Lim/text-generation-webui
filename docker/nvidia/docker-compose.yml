@@ -23,7 +23,7 @@ services:
         BUILD_EXTENSIONS: ${BUILD_EXTENSIONS:-}
         APP_GID: ${APP_GID:-6972} 
         APP_UID: ${APP_UID-6972} 
-    env_file: .env
+    env_file: stack.env
     user: "${APP_RUNTIME_UID:-6972}:${APP_RUNTIME_GID:-6972}"
     ports:
       - "${HOST_PORT:-7860}:${CONTAINER_PORT:-7860}"
