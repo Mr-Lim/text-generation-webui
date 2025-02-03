@@ -19,7 +19,7 @@ services:
         # BUILD_EXTENSIONS: 
 
         # specify which cuda version your card supports: https://developer.nvidia.com/cuda-gpus
-        TORCH_CUDA_ARCH_LIST: ${TORCH_CUDA_ARCH_LIST:-8.6} 
+        TORCH_CUDA_ARCH_LIST: ${TORCH_CUDA_ARCH_LIST:-7.5} 
         BUILD_EXTENSIONS: ${BUILD_EXTENSIONS:-}
         APP_GID: ${APP_GID:-6972} 
         APP_UID: ${APP_UID-6972} 
