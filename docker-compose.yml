@@ -13,7 +13,7 @@ services:
         # | Apple Intel | `requirements_apple_intel.txt` |
         # | Apple Silicon | `requirements_apple_silicon.txt` |
         # Default: requirements.txt`
-        # BUILD_REQUIREMENTS: requirements.txt
+        BUILD_REQUIREMENTS: requirements_noavx2.txt
 
         # Extension requirements to build: 
         # BUILD_EXTENSIONS: 
